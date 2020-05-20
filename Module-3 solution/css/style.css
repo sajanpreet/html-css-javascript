@@ -1,0 +1,21 @@
+ul li{
+    text-align: center;
+    margin: 5px;
+    border: 1px solid white;
+    list-style: none;
+}
+
+.navbar-nav-lg{
+    display: none;
+}
+.background-color{
+    background-color: rgb(126, 178, 247);
+    
+
+}
+
+@media only screen and (min-width:768px) and (max-width:3000px){
+    ul li{
+        display: none;
+    }
+}
